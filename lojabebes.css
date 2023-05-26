@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Source', sans-serif;
+}
+header{
+    background-color:#b0d2d6;  
+  }
+
+.menu{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 150px;
+    align-content: center;
+}
+
+.logo {
+    height: 150px;
+    padding: 0px 0px 0px 25px;
+}
+
+
+.topo{
+    padding-top: 35px;
+}
+#divBusca{
+    background-color:white;
+    border:solid 2px black;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+.lupa{
+    height: 30px;
+}
+#imagem img{
+    height: 40px;
+    padding: 35px 0px 0px 60px;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  background:#5F9EA0;
+}
+
+
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header li{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+
+header a{
+    display: block;
+    text-decoration: none;
+    color: #b07dd3;
+    padding: 20px;
+    font-size: 25px;
+}
+.dropdown a:hover{
+    color: #6243b8;
+    background-color: white;
+    
+}
+
+
+
+
+
+
+main{
+    height: 80%;
+    padding: 30px;
+    background-color:#e3ded0;
+}
+
+main a,
+main li,
+main ul{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: #b07dd3;
+    text-align: center;
+}
+
+
+main li{
+    padding: 25px;
+    background-color: #ffff;
+    border-radius: 30px 15px;
+    
+}
+.itens {
+    display: grid;
+    justify-content: flex-start;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.itens img{
+    height: 230px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+.produto{
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.produto ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px;
+    text-align: left;
+    
+}
+.produto img{
+    background-color: #ffff;
+    height: 460px;
+    padding: 15px;
+    border-radius: 30px 15px;
+    margin-right: 5%;
+}
+.adquirir{
+    color: #6243b8;
+}
+
+
+
+.produtoinfor{
+    color: #ee85cb;
+}
+.produtoinfor h1{
+    font-size: 45px;
+}
+.produtoinfor h2{
+    font-size: 35px;
+    color: #f7981d;
+}
+.descricao{
+    margin-top: 5%;
+    color: #b17a91;
+    font-size: 20px;
+}
+
+
+
+.adquirir {
+    padding: 10px 20px;
+    background-color: #e4b840;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.adquirir:hover {
+    background-color: #f7981d;
+}
+
+.voltar{
+    border: none;
+    padding: 0px 35px;
+    background-color: #d1b5ff;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.voltar a{
+    padding: 5px;
+    color: #7140e4;
+}
+
+.voltar:hover{
+    background-color: #e7e2f5;
+}
+
+
+
+
+footer{
+    width: 100%;
+    background-color: #889cb3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding: 18px;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.80rem;
+}
+footer a{
+    color: #ffff;
+    padding: 0.5px;
+}
+footer a:hover{
+    color: #6243b8;
+}
+
+footer ul,
+footer li,
+footer a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+footer li{
+    color: white;
+}
